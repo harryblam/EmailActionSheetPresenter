@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ChooseEmailActionSheetPresenter {
 
+    var chooseEmailActionSheet: UIAlertController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        chooseEmailActionSheet = setupChooseEmailActionSheet()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func showTapped(_ sender: Any) {
+        show(chooseEmailActionSheet!, sender: self)
     }
-
-
 }
 

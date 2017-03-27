@@ -12,6 +12,7 @@
 		75AE91341E82A18B0001802C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AE91321E82A18B0001802C /* Main.storyboard */; };
 		75AE91361E82A18B0001802C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AE91351E82A18B0001802C /* Assets.xcassets */; };
 		75AE91391E82A18B0001802C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AE91371E82A18B0001802C /* LaunchScreen.storyboard */; };
+		75AE91411E82A1A80001802C /* EmailActionSheetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AE91401E82A1A80001802C /* EmailActionSheetPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		75AE91351E82A18B0001802C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AE91381E82A18B0001802C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AE913A1E82A18B0001802C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AE91401E82A1A80001802C /* EmailActionSheetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailActionSheetPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				75AE912E1E82A18B0001802C /* AppDelegate.swift */,
 				75AE91301E82A18B0001802C /* ViewController.swift */,
+				75AE91401E82A1A80001802C /* EmailActionSheetPresenter.swift */,
 				75AE91321E82A18B0001802C /* Main.storyboard */,
 				75AE91351E82A18B0001802C /* Assets.xcassets */,
 				75AE91371E82A18B0001802C /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				75AE91311E82A18B0001802C /* ViewController.swift in Sources */,
 				75AE912F1E82A18B0001802C /* AppDelegate.swift in Sources */,
+				75AE91411E82A1A80001802C /* EmailActionSheetPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
